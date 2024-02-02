@@ -31,7 +31,7 @@ def index():
     return jsonify(response)
 
 def fetch_conversion_factor(source, target):
-    url = "https://free.currconv.com/api/v7/convert?q={}_{}&compact=ultra&apiKey=af9fe87465f485e7013a".format(source, target)
+    url = "https://free.currconv.com/api/v7/convert?q={}_{}&compact=ultra&apiKey=f92f7081d04a5ead76a0".format(source, target)
     response = requests.get(url)
     
     try:
